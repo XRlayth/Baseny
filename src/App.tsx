@@ -19,7 +19,6 @@ export default function App() {
         <ContactForm />
         <ReviewsCarousel />
         <WhyUs />
-        <ProcessTimeline />
         <Portfolio />
         <FAQ />
         <CTASection />
