@@ -32,13 +32,13 @@ export function WhyUs() {
                 <div className="flex flex-col gap-3">
                   <Button
                     variant="outline"
-                    className="w-full border-[#4A90E2] text-[#4A90E2] hover:bg-[#4A90E2] hover:text-white transition-all duration-300"
+                    className="w-full border-2 border-[#4A90E2] text-[#4A90E2] hover:bg-gradient-to-r hover:from-[#4A90E2] hover:to-[#6BB6FF] hover:text-white hover:border-transparent transition-all duration-300 hover:shadow-lg"
                   >
                     Sauna ogrodowa
                   </Button>
                   <Button
                     variant="outline"
-                    className="w-full border-[#4A90E2] text-[#4A90E2] hover:bg-[#4A90E2] hover:text-white transition-all duration-300"
+                    className="w-full border-2 border-[#4A90E2] text-[#4A90E2] hover:bg-gradient-to-r hover:from-[#4A90E2] hover:to-[#6BB6FF] hover:text-white hover:border-transparent transition-all duration-300 hover:shadow-lg"
                   >
                     Sauna rekreacyjna
                   </Button>
@@ -60,13 +60,13 @@ export function WhyUs() {
                 <div className="flex flex-col gap-3">
                   <Button
                     variant="outline"
-                    className="w-full border-[#4A90E2] text-[#4A90E2] hover:bg-[#4A90E2] hover:text-white transition-all duration-300"
+                    className="w-full border-2 border-[#4A90E2] text-[#4A90E2] hover:bg-gradient-to-r hover:from-[#4A90E2] hover:to-[#6BB6FF] hover:text-white hover:border-transparent transition-all duration-300 hover:shadow-lg"
                   >
                     Basen rekreacyjny
                   </Button>
                   <Button
                     variant="outline"
-                    className="w-full border-[#4A90E2] text-[#4A90E2] hover:bg-[#4A90E2] hover:text-white transition-all duration-300"
+                    className="w-full border-2 border-[#4A90E2] text-[#4A90E2] hover:bg-gradient-to-r hover:from-[#4A90E2] hover:to-[#6BB6FF] hover:text-white hover:border-transparent transition-all duration-300 hover:shadow-lg"
                   >
                     Basen domowy
                   </Button>
@@ -74,30 +74,29 @@ export function WhyUs() {
               </div>
             </div>
 
-            {/* Card 3 - Serwis (Larger Card) */}
-            <div className="lg:col-span-1 lg:row-span-1 bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-              <div className="p-6 h-full flex flex-col">
-                <h3 className="text-2xl text-[#1F304E] mb-6">Serwis</h3>
-                <div className="flex flex-col gap-3 mb-6">
+            {/* Card 3 - Serwis */}
+            <div className="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+              <div className="relative h-48 overflow-hidden">
+                <ImageWithFallback
+                  src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=500&q=80"
+                  alt="Serwis basenów"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl text-[#1F304E] mb-4 text-center">Serwis</h3>
+                <div className="flex flex-col gap-3">
                   <Button
                     variant="outline"
-                    className="justify-start border-[#4A90E2] text-[#4A90E2] hover:bg-[#4A90E2] hover:text-white transition-all duration-300"
+                    className="w-full border-2 border-[#4A90E2] text-[#4A90E2] hover:bg-gradient-to-r hover:from-[#4A90E2] hover:to-[#6BB6FF] hover:text-white hover:border-transparent transition-all duration-300 hover:shadow-lg"
                   >
                     Naprawa basenów
                   </Button>
                   <Button
                     variant="outline"
-                    className="justify-start border-[#4A90E2] text-[#4A90E2] hover:bg-[#4A90E2] hover:text-white transition-all duration-300"
+                    className="w-full border-2 border-[#4A90E2] text-[#4A90E2] hover:bg-gradient-to-r hover:from-[#4A90E2] hover:to-[#6BB6FF] hover:text-white hover:border-transparent transition-all duration-300 hover:shadow-lg"
                   >
                     Renowacja basenów
-                  </Button>
-                </div>
-                <div className="mt-auto">
-                  <Button
-                    className="w-full bg-gradient-to-r from-[#4A90E2] to-[#6BB6FF] text-white border-2 border-white/30 shadow-lg transition-all duration-300 hover:shadow-[0_0_30px_rgba(74,144,226,0.6)]"
-                  >
-                    Zobacz więcej
-                    <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
               </div>
@@ -112,17 +111,15 @@ export function WhyUs() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               size="lg"
-              className="bg-gradient-to-r from-[#4A90E2] to-[#6BB6FF] text-white border-2 border-white/30 px-8 shadow-lg transition-all duration-300 hover:shadow-[0_0_30px_rgba(74,144,226,0.6)]"
+              className="bg-gradient-to-r from-[#4A90E2] to-[#6BB6FF] text-white border-2 border-white/30 px-8 py-6 shadow-2xl transition-all duration-300 hover:shadow-[0_0_30px_rgba(74,144,226,0.6)]"
             >
               Zobacz wszystkie
             </Button>
             <Button
               size="lg"
-              variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-[#1F304E] px-8 transition-all duration-300"
+              className="bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 hover:bg-white hover:text-[#1F304E] px-8 py-6 transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]"
             >
-              <Phone className="mr-2 h-4 w-4" />
-              Zadzwoń
+              Zobacz realizacje
             </Button>
           </div>
         </div>
