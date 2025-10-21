@@ -4,10 +4,11 @@ import { ContactForm } from "./components/ContactForm";
 import { ReviewsCarousel } from "./components/ReviewsCarousel";
 import { WhyUs } from "./components/WhyUs";
 import { Services } from "./components/Services";
-import { Process } from "./components/Process";
+import { ProcessTimeline } from "./components/ProcessTimeline";
 import { Portfolio } from "./components/Portfolio";
 import { FAQ } from "./components/FAQ";
 import { CTASection } from "./components/CTASection";
+import { MapSection } from "./components/MapSection";
 import { Footer } from "./components/Footer";
 
 export default function App() {
@@ -20,10 +21,11 @@ export default function App() {
         <ReviewsCarousel />
         <WhyUs />
         <Services />
-        <Process />
+        <ProcessTimeline />
         <Portfolio />
         <FAQ />
         <CTASection />
+        <MapSection />
       </main>
       <Footer />
     </div>

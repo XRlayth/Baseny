@@ -100,7 +100,7 @@ export function Footer() {
                 <div className="w-10 h-10 bg-[#26C6AA] rounded-lg flex items-center justify-center">
                   <span className="text-white">PB</span>
                 </div>
-                <span className="text-xl text-white">PoolBaseny</span>
+                <span className="text-xl text-white">Baseny Rzeszów</span>
               </div>
               <p className="text-white/70 text-sm mb-4">
                 Kompleksowa obsługa basenów od A do Z. Jakość i terminowość gwarantowane.
@@ -168,7 +168,7 @@ export function Footer() {
       <div className="py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-sm text-white/60">
-            © 2025 PoolBaseny. Wszelkie prawa zastrzeżone.
+            © 2025 Baseny Rzeszów. Wszelkie prawa zastrzeżone.
           </p>
         </div>
       </div>
